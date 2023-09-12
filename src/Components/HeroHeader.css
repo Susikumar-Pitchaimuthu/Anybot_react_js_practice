@@ -1,0 +1,62 @@
+.hero-header-main-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  margin-top: 4em;
+}
+
+.hero-header-inside-div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  gap: 2.4em;
+}
+
+.header-h1 {
+  font-size: 61px;
+  font-weight: 800;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.header-h3 {
+  font-size: 26px;
+  font-weight: 600;
+  text-align: center;
+  color: #808080;
+  margin: 0;
+  padding: 0;
+}
+
+/* button css */
+.header-button-div {
+  display: flex;
+  align-items: center;
+  gap: 6%;
+}
+
+.header-btn {
+  cursor: pointer;
+  border: 0;
+  border-radius: 22px;
+  font-weight: 600;
+  margin: 0 10px;
+  width: 200px;
+  padding: 10px 0px;
+  height: 45px;
+  box-shadow: 0 0 20px rgba(104, 85, 224, 0.2);
+  transition: 0.4s;
+}
+
+.schedule-button {
+  color: white;
+  background-color: #17a98f;
+}
+
+.use-timecraft-button {
+  color: #17a98f;
+  border: 2px solid #17a98f;
+}

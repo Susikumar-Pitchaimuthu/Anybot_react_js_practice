@@ -1,0 +1,77 @@
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.logo-links-div {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  gap: 5%;
+}
+/* logo css */
+
+.log-div {
+  display: flex;
+  align-items: center;
+  flex: 0.3;
+}
+.logo-image {
+  width: 159px;
+  height: 63px;
+}
+
+/* nav links css */
+
+.nav-links-div {
+  display: flex;
+  align-items: center;
+  gap: 5%;
+  flex: 0.7;
+}
+
+/* button css */
+.sign-log-button-div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex: 1;
+  gap: 4%;
+}
+
+.nav-btn {
+  cursor: pointer;
+  border: 0;
+  border-radius: 4px;
+  font-weight: 600;
+  margin: 0 10px;
+  width: 150px;
+  padding: 10px 0;
+  box-shadow: 0 0 20px rgba(104, 85, 224, 0.2);
+  transition: 0.4s;
+}
+
+.signUp-button {
+  color: white;
+  background-color: rgba(104, 85, 224, 1);
+}
+
+.signIn-button {
+  color: rgb(104, 85, 224);
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(104, 85, 224, 1);
+}
+
+.signIn-button:hover {
+  color: white;
+  box-shadow: 0 0 20px rgba(104, 85, 224, 0.6);
+  background-color: rgba(104, 85, 224, 1);
+}
+
+.signUp-button:hover {
+  color: rgb(104, 85, 224);
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(104, 85, 224, 1);
+}
